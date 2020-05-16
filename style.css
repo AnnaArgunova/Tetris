@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    width: 320px;
+    height: 640px;
+    border: 10px solid white;
+    margin:20 auto 0;
+    font-size: 0;
+}
+
+.next{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+text-align: center;
+}
+
+.next_tetro{
+    font-size: 0;
+ 
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background: transparent;
+    border: 2px solid blue;
+}
+
+#game{
+    font-size: 40px;
+    padding-top: 30px;
+    width: 320px;
+    margin: 0 auto;
+}
+
+.cell{
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    display: inline-block;
+}
+
+.fix_cell{
+    background-color: green;
+}
+
+.moving_cell{
+    background-color: blue;
+}
+
+.game_over{
+    font-size: 100px;
+    display: none;
+    color: blue;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
