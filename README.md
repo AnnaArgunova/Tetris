@@ -1,1 +1,1 @@
-https://AnnaArgunova/Tetris.github.io/index
+https://AnnaArgunova.github.io/Tetris/start
